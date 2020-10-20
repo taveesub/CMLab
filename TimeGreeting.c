@@ -7,7 +7,7 @@ void main()
   timer=time(NULL);
   printf("The current time is %s.\n",asctime(localtime(&timer)));*/
   
-  int hours, minutes; char Name[30], answer;
+  int hours, minutes; char Name[40], answer;
 
   time_t timer; 
   struct tm *time_now;
@@ -44,6 +44,6 @@ void main()
                  minutes);
     printf("Continue (Y/N)?"); scanf("%c", &answer); 
   } while (answer == 'Y'); 
-  printf("Good Bye!"); 
+  printf("Bye! Bye!"); 
   scanf("%c", &answer); 
 }
